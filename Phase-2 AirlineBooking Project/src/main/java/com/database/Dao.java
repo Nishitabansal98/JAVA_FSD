@@ -29,7 +29,6 @@ public List<String[]> getAvailableFlights(String f, String t, String d) {
 		String query="SELECT * FROM flyaway.flights where fromf='"+f+"' and tof='"+t+"' and datef='"+d+"'";
 		try {
 			ResultSet rs=st.executeQuery(query);
-			
 			if(rs.next()) {
 				String[] flight=new String[3];
 				flight[0]=rs.getString("name");
