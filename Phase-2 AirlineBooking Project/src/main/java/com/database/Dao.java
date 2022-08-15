@@ -38,7 +38,6 @@ public List<String[]> getAvailableFlights(String f, String t, String d) {
 				return flights;
 			}
 			
-			
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
