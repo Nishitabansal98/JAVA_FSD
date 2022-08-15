@@ -27,8 +27,6 @@
 	<th>Price</th>
 </tr>
 
-
-
 <%
 	for(String[] flight:flights){
 %>
