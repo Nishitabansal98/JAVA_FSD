@@ -17,7 +17,6 @@ public class StringUtil {
 		}
 		return fixedValue.toString();
 	}
-	
 	public static String encodeHtmlTag(String tag) {
 		if (tag==null)
 			return null;

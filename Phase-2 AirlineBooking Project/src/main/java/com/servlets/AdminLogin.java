@@ -1,5 +1,4 @@
 package com.servlets;
-
 import java.io.IOException;
 import java.sql.SQLException;
 import javax.servlet.ServletException;
@@ -10,8 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.database.Dao;
-
-
 
 @WebServlet("/AdminLogin")
 public class AdminLogin extends HttpServlet {
