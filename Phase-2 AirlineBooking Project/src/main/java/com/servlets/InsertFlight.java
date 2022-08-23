@@ -13,7 +13,6 @@ import javax.servlet.http.HttpSession;
 
 import com.database.Dao;
 
-
 @WebServlet("/InsertFlight")
 public class InsertFlight extends HttpServlet {
 	private static final long serialVersionUID = 1L;

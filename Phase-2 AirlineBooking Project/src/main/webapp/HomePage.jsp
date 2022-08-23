@@ -13,7 +13,6 @@
 <div align="right">
 <a href="AdminPage.jsp">Admin Login</a>
 </div>
-
 <%
 	@SuppressWarnings("unchecked")
 	HashMap<String,String> user=(HashMap<String,String>)session.getAttribute("user");
