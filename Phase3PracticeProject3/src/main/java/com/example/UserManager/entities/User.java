@@ -58,7 +58,7 @@ public class User { //The Entity of a User; What it is.
 	public String getPassword() {
 		return password;
 	}
-
+	
 	public void setPassword(String password) {
 		this.password = password;
 	}
@@ -67,7 +67,4 @@ public class User { //The Entity of a User; What it is.
 	public String toString() {
 		return (id.toString() + " " + name + " " + email + " " + password);
 	}
-	
-	
-
 }
