@@ -20,7 +20,6 @@ public class UserService {
 	public Iterable<User> GetAllUsers() {
 		return userRepository.findAll();
 	}
-	
 	public User GetUserByName(String name) {
 		return userRepository.findByName(name);
 		
