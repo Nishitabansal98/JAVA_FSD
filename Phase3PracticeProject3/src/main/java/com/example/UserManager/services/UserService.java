@@ -27,7 +27,9 @@ public class UserService {
 		if(!foundUser.isPresent()) throw new UserNotFoundException();
 		return foundUser.get();
 	}
+
 	
+
 	public User UpdateUser(User userToUpdate) {
 		return userRepository.save(userToUpdate);
 	}
