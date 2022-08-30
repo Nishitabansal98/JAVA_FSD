@@ -1,7 +1,6 @@
 
 package com.example.UserManager.services;
 
-
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,9 +21,7 @@ public class UserService {
 	}
 	public User GetUserByName(String name) {
 		return userRepository.findByName(name);
-		
 	}
-	
 	public User GetUserById(Integer id) {
 		Optional<User> foundUser = userRepository.findById(id);
 		if(!foundUser.isPresent()) throw new UserNotFoundException();
