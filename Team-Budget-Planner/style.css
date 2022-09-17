@@ -1,5 +1,4 @@
 body {
- 
     margin: 0;
     padding: 0;
     width: 100%;
@@ -211,7 +210,6 @@ body {
   .modal-body {
     padding: 2px 16px;
   }
-  
   /* Add Animation */
   @keyframes slideIn {
     from {
